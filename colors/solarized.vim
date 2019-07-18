@@ -923,6 +923,16 @@ exe "hi! pandocMetadata"                 .s:fg_blue   .s:bg_none   .s:fmt_bold
 hi! link pandocMetadataTitle             pandocMetadata
 
 "}}}
+" TLC syntax highlighting
+"hi Conditional guifg=#8DA5ED
+"hi InternalFunction guifg=Orchid
+"hi TLCKeyword guifg=#8DA5EE
+"hi TLCNumber guifg=blue
+hi tlcString guifg=yellow
+hi tlcStringSingleQuote guifg=yellow
+hi tlcStringDoubleQuote guifg=yellow
+"hi TLCComment guifg=red
+"hi TLCCommentOut guifg=red
 " Utility autocommand "{{{
 " ---------------------------------------------------------------------
 " In cases where Solarized is initialized inside a terminal vim session and 
